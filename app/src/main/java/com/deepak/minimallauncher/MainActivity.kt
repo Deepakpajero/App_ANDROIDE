@@ -189,7 +189,7 @@ class MainActivity : ComponentActivity() {
 
         val search = EditText(this).apply {
             hint = "Search"
-            hintTextColor = 0xFF666666.toInt()
+            setHintTextColor(Color.GRAY)
             setTextColor(Color.WHITE)
             setSingleLine(true)
             setBackgroundColor(Color.TRANSPARENT)
